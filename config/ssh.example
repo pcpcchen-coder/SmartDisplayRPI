@@ -1,0 +1,9 @@
+# Append to ~/.ssh/config on Mac; replace User with the Imager-created username.
+Host smartdisplay
+    HostName smartdisplay.local
+    User display
+    IdentityFile ~/.ssh/smartdisplay_ed25519
+    IdentitiesOnly yes
+    StrictHostKeyChecking yes
+    ServerAliveInterval 30
+    ServerAliveCountMax 3

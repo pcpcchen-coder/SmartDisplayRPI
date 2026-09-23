@@ -1,0 +1,4 @@
+# Optional: Google Calendar connector, installed on Mac only.
+google-api-python-client>=2.0,<3
+google-auth-httplib2>=0.2,<1
+google-auth-oauthlib>=1.2,<2
